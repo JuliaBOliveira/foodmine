@@ -19,7 +19,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+td,
+th {
   color: #fff;
 }
 
@@ -34,4 +36,13 @@ a,
 }
 .destaque {
   color: #32cd32;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
